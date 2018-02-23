@@ -1,0 +1,207 @@
+*{
+
+	box-sizing: border-box;
+
+}
+
+body{
+
+	background-image: url(../images/dust_scratches.png);
+
+}
+
+#title{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	color: #fff;
+
+}
+.titleRow{
+
+	background-color: #1e1e1e;
+	border-bottom: solid 10px #9caab4;
+	border-radius: 25px;
+
+}
+#start{
+
+	margin-top: 50px;
+	margin-left: 30%;
+	height: 100px;
+	width: 200px;
+	background-color: #1e1e1e;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 25px;
+
+}
+#start:hover{
+
+	opacity:.80;
+
+}
+.question{
+
+	margin-top: 50px;
+	margin-right: 110px;
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 25px;
+	padding: 50px 0px 50px 165px;
+
+
+}
+.timer{
+
+	margin-bottom: 20px;
+	margin-left: 70px;
+	font-size: 45px;
+}
+
+#question{
+
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	border-bottom: solid 3px #9caab4;
+	width: 305px;
+
+}
+#next{
+
+	height: 75px;
+	width: 150px;
+	background-color: #9caab4;
+	font-size: 24px;
+	color: #1e1e1e;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 70px;
+
+}
+#next:hover{
+
+	opacity: .80;
+
+}
+.form-check{
+
+	font-size: 24px;
+	margin-left: 110px;
+
+}
+.correctScreen{
+
+	background-color: #1e1e1e;
+	border-radius: 25px;
+	border-bottom: solid 10px #9caab4;
+
+}
+#correctScreen{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	color: #fff;
+
+}
+.wrongScreen{
+
+	background-color: #1e1e1e;
+	border-radius: 25px;
+	border-bottom: solid 10px #9caab4;
+
+}
+#wrongScreen{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	color: #fff;
+
+}
+.wrongText{
+
+	color: #fff;
+	padding-bottom: 50px;
+	font-size: 24px;
+	text-align: center;
+	padding-right: 80px;
+
+}
+.timesUpScreen{
+
+	background-color: #1e1e1e;
+	border-radius: 25px;
+	border-bottom: solid 10px #9caab4;
+
+}
+#timesUpScreen{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 30%;
+	color: #fff;
+
+}
+.results{
+
+	background-color: #1e1e1e;
+	border-radius: 25px;
+	border-bottom: solid 10px #9caab4;
+
+}
+#resultsScreen{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 35%;
+	color: #fff;
+
+}
+.resultsText{
+
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 50px;
+	margin-left: 200px;
+
+}
+#tryAgain{
+
+	height: 75px;
+	width: 150px;
+	background-color: #9caab4;
+	font-size: 24px;
+	color: #1e1e1e;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 70px; 
+	margin-bottom: 50px;
+	margin-left: 250px;
+
+}
+#tryAgain:hover{
+
+	opacity: .80;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

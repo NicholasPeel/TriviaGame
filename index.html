@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <title>Trivia Game</title>
+  </head>
+  <body>
+    
+    <div class="container">
+		
+		<!-- Quiz Title -->
+		<div class="row justify-content-center titleRow">
+			
+			<div id="title" class="col-md-8">
+				
+				<h1>Are You My Friend? Quiz</h1>
+
+			</div>
+
+		</div>
+	
+		<!-- Start Button -->
+		<div class="row justify-content-center">
+			
+			<div class="col-md-8">
+				
+				<button id="start">PLAY</button>
+
+			</div>
+			
+		</div>
+
+		<!-- Correct Screen -->
+		<div class="row justify-content-center correctScreen">
+			
+			<div class="col-md-8" >
+				
+				<h1 id="correctScreen">YOU ARE CORRECT!!!</h1>
+
+			</div>
+
+		</div>
+
+		<!-- Incorrect Screen -->
+		<div class="row justify-content-center wrongScreen">
+			
+			<div class="col-md-8">
+				
+				<h1 id="wrongScreen">YOU ARE WRONG!!!</h1>
+
+				<div class="wrongText">
+					
+					<span>Correct answer: </span><span class="correctAnswer"></span>
+
+				</div>
+				
+
+			</div>
+
+		</div>
+
+		<!-- Times Up Screen -->
+		<div class="row justify-content-center timesUpScreen">
+			
+			<div class="col-md-8">
+				
+				<h1 id="timesUpScreen">Time Is Up!!!</h1>
+
+				<div class="wrongText">
+					
+					<span>Correct answer: </span><span class="correctAnswer"></span>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Question -->
+		<div class="row justify-content-center">
+			
+
+			<div class="col-md-7 question">
+				
+				<!-- Timer -->
+				<div class="row justify-content-center">
+					
+					<div class="col-md-8 timer">
+						
+							<div id="timer">7</div>
+
+					</div>
+
+				</div>
+
+				<h2 id="question">Question</h2>
+
+				<div class="form-check">
+  					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="true">
+  						<label class="form-check-label" for="exampleRadios1">
+   							True
+  						</label>
+				</div>
+				<div class="form-check">
+  					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="false">
+  						<label class="form-check-label" for="exampleRadios2">
+    						False
+  						</label>
+				</div>
+
+				<button id="next">Next</button>
+
+			</div>
+
+		</div>
+	
+		<!-- Results Screen -->
+		<div class="row justify-content-center results">
+			
+			<div class="col-md-8">
+				
+				<h1 id="resultsScreen">Results:</h1>
+				<span class="resultsText">Number Correct: </span><span class="resultsText" id="correct"></span><br>
+				<span class="resultsText">Number Wrong: </span><span class="resultsText" id="wrong"></span><br>
+				<button id="tryAgain">Try Again</button>
+
+			</div>
+
+		</div>
+
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+  </body>
+</html>
